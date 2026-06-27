@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Camarote São Luiz | Onde o jogo vira experiência</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Venha viver o ritmo e o calor da Copa no Camarote São Luiz. Open bar premium, telão de alta definição e muito mais. Reserve agora via WhatsApp!" />
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Animated Elements -->
+  <div class="bg-glow bg-glow-green"></div>
+  <div class="bg-glow bg-glow-yellow"></div>
+  <div class="confetti-container" id="confetti"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-content">
+      <div class="logo">
+        <span class="logo-text">CAMAROTE</span>
+        <span class="logo-highlight">SÃO LUIZ</span>
+      </div>
+      <a href="http://wa.me/82996293393" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+        <i class="ph-fill ph-whatsapp-logo"></i> Reservar
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="badge">🇧🇷 Rumo ao Hexa!</div>
+        <h1 class="hero-title">O BRASIL SEGUE EM CAMPO.</h1>
+        <p class="hero-subtitle">E o Camarote São Luiz retorna mais forte. Venha viver a verdadeira experiência da Copa com a nossa torcida!</p>
+        
+        <div class="hero-actions">
+          <a href="http://wa.me/82996293393" target="_blank" rel="noopener noreferrer" class="btn btn-primary pulse-anim">
+            <i class="ph-fill ph-whatsapp-logo"></i> Garanta sua mesa
+          </a>
+          <p class="scarcity-text"><i class="ph-bold ph-warning-circle"></i> Ingressos Limitados</p>
+        </div>
+      </div>
+      
+      <div class="hero-visual">
+        <div class="glass-card main-poster">
+          <img src="Camarote 7.jpg" alt="Poster Camarote São Luiz" class="img-fluid" />
+          <div class="card-glow"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experiência Section -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <h2>VOCÊ ESCOLHE COMO QUER VIVER O JOGO</h2>
+        <p>A melhor estrutura da cidade esperando por você e seus amigos.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card glass-card">
+          <div class="feature-icon"><i class="ph-fill ph-beer-bottle"></i></div>
+          <h3>Open Bar Premium</h3>
+          <p>4 Horas de Budweiser e Stella Artois Pure Gold liberadas para você brindar cada gol.</p>
+        </div>
+
+        <div class="feature-card glass-card">
+          <div class="feature-icon"><i class="ph-fill ph-monitor-play"></i></div>
+          <h3>Telão HD</h3>
+          <p>Transmissão em telão de alta definição para você não perder nenhum lance importante da partida.</p>
+        </div>
+
+        <div class="feature-card glass-card">
+          <div class="feature-icon"><i class="ph-fill ph-users-three"></i></div>
+          <h3>Mesas para 4</h3>
+          <p>Conforto garantido para sua turma torcer e vibrar juntos com exclusividade.</p>
+        </div>
+
+        <div class="feature-card glass-card">
+          <div class="feature-icon"><i class="ph-fill ph-guitar"></i></div>
+          <h3>Música ao Vivo</h3>
+          <p>As melhores atrações musicais garantindo a festa antes e depois do apito final.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video Highlight Section -->
+  <section class="video-section section">
+    <div class="container">
+      <div class="video-container glass-card">
+        <video id="promoVideo" class="promo-video" autoplay muted loop playsinline poster="Camarote dia 29.06.jpg">
+          <!-- We use one of the videos. Since they are local and large, this is a placeholder using one of the actual files -->
+          <source src="Camarote 1 vem com dicas.mp4" type="video/mp4">
+          Seu navegador não suporta vídeos.
+        </video>
+        <div class="video-overlay">
+          <div class="play-btn" id="playPauseBtn">
+            <i class="ph-fill ph-speaker-slash"></i>
+          </div>
+          <h3>Sinta a Energia!</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Album Section -->
+  <section class="album section">
+    <div class="container album-container">
+      <div class="album-content">
+        <h2>AGORA FICOU MAIS FÁCIL TROCAR SUAS FIGURINHAS!</h2>
+        <p>Participe do nosso ponto de troca oficial. Complete seu Álbum O Queridinho e o Álbum Oficial da Copa todos os sábados às 10h.</p>
+        <ul class="check-list">
+          <li><i class="ph-bold ph-check-circle"></i> Poste uma foto nos comentários</li>
+          <li><i class="ph-bold ph-check-circle"></i> Encontre sua troca</li>
+          <li><i class="ph-bold ph-check-circle"></i> Complete seu álbum</li>
+        </ul>
+      </div>
+      <div class="album-image glass-card">
+        <img src="Camarote 12.webp" alt="Troca de Figurinhas" class="img-fluid" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer / Final CTA -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <h2>NOSSO ENCONTRO ESTÁ MARCADO</h2>
+      <p>Não fique de fora da melhor torcida de Alagoas. Reserve sua mesa agora mesmo!</p>
+      
+      <div class="footer-ctas">
+        <a href="http://wa.me/82996293393" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-large">
+          <i class="ph-fill ph-whatsapp-logo"></i> Falar com Atendimento (Principal)
+        </a>
+        <a href="http://wa.me/82998030037" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <i class="ph-fill ph-whatsapp-logo"></i> Atendimento Secundário
+        </a>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>Supermercado São Luiz & Dom Luiz Cozinha Moderna</p>
+        <p class="copyright">© 2026 Camarote São Luiz. Onde o jogo vira experiência.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Action Button (WhatsApp) -->
+  <a href="http://wa.me/82996293393" target="_blank" rel="noopener noreferrer" class="fab-whatsapp" aria-label="Fale conosco no WhatsApp">
+    <i class="ph-fill ph-whatsapp-logo"></i>
+  </a>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
